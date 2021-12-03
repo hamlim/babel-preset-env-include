@@ -4,7 +4,7 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: '> 0.75%',
-        include: ['transform-spread'],
+        include: ['@babel/plugin-transform-spread'],
         debug: true,
       },
     ],
