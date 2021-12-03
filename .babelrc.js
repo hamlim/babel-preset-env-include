@@ -4,7 +4,10 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: '> 0.75%',
-        include: ['@babel/plugin-transform-spread'],
+        include: [
+          // This works, but why???
+          'proposal-object-rest-spread',
+        ],
         debug: true,
       },
     ],
